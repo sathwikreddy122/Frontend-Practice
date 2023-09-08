@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav-bar{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px;
+    font-size: 22px;
+}
+.nav-icon{
+    font-size: 35px;
+}
+.logo-nav{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+.logo-nav a{
+    text-decoration: none;
+    color: white;
+}
+.buttons{
+    margin-right: 80px;
+}
+.btn1{
+    font-size: 17px;
+    border: none;
+    background-color: #000000;
+    color: lightgray;
+    border: 1.5px solid lightgray;
+    padding: 10px;
+    border-radius: 8px;
+}
+.btn1:hover{
+    background-color: lightgray;
+    color: #000000;
+}
+.btn2{
+    font-size: 17px;
+    border: none;
+    background-color: #4C5FD5;
+    color: lightgray;
+    padding: 10px;
+    border-radius: 8px;
+    width: 110px;
+}
+.btn2:hover{
+    border: 2px solid lightgray;
+}
+.section-one{
+    text-align: center;
+    height: 400px;
+    background-color: #dadbf1;
+}
+.section-one  h1{
+    padding-top: 39px;
+    font-size: 45px;
+}
+.section-one input{
+    font-size: 16px;
+    padding: 14px;
+    width: 530px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.search{
+    padding-top: 30px;
+}
+.section-two{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 40px;
+    
+}
+.content{
+    display: flex ;
+    width: 40%;
+    margin: 45px 0px;
+}
+.content-logo{
+    font-size: 40px;
+    margin-right: 13px;
+}
+.inner-content p{
+    padding-top: 14px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000;
+    color: white;
+    padding: 30px;
+}
+footer ul li{
+    list-style: none;
+    padding: 9px;
+    font-size: 11px;
+}
